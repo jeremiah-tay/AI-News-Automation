@@ -20,14 +20,14 @@ It fetches articles from Inoreader, extracts full text, summarizes the content u
 ```
 AI-News-Automation/
 │
-├── scripts/ # Utility scripts
-│ ├── inoreader.py # Access token and article fetch logic
-│ ├── scraper.py # Extracts full text from article links
-│ ├── summarizer.py # Summarizes text using an AI model
-│ └── sheets.py # Google Sheets integration
+├── scripts/         # Utility scripts
+│ ├── inoreader.py   # Access token and article fetch logic
+│ ├── scraper.py     # Extracts full text from article links
+│ ├── summarizer.py  # Summarizes text using an AI model
+│ └── sheets.py      # Google Sheets integration
 │
-├── main.py # Main automation pipeline
-├── .env # Contains environment variables
+├── main.py          # Main automation pipeline
+├── .env             # Contains environment variables
 ├── requirements.txt # Python dependencies
-└── README.md # You’re here!
+└── README.md        # You’re here!
 ```
